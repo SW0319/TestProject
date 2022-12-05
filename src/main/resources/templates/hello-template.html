@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p th:text="'hello '+ ${name}">hello! empty</p>
+<p th:text="'비밀번호는, '+ ${pwd}">hello! empty</p>
+<!--태그 안 텍스트는 th안에 있는 속성값으로 대체된다. 단, 서버를 타는 것이 아닌, 직접 파일을 열게 되면 태그 안에 넣어둔 값이 나오게 된다. !-->
+</body>
+</html>
